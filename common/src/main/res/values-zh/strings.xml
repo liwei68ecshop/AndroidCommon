@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="requestingPleaseWait">正在请求,请稍后</string>
+    <string name="selectRegion">选择地区</string>
+    <string name="placeholderActivityTitle">Activity标题</string>
+    <string name="pleaseCheckYourNetwork">我已经很努力了，奈何网络不给力~</string>
+    <string name="reload">重新加载</string>
+    <string name="requestFailed">网络请求失败</string>
+    <string name="requestSucceed">请求成功</string>
+    <string name="loading">载入中...</string>
+    <string name="buttonCancel">取消</string>
+    <string name="buttonConfirm">确定</string>
+    <string name="placeholderConfirm">你确定吗？</string>
+    <string name="emptyList">没有符合条件的记录哦~</string>
+    <string name="buttonReload">重新加载</string>
+    <string name="emptyUrl">链接为空</string>
+    <string name="scanResult">扫描结果</string>
+    <string name="copyToClipboard">已复制到剪切板</string>
+    <string name="copyUrl">复制链接</string>
+    <string name="pleaseSelect">请选择</string>
+</resources>

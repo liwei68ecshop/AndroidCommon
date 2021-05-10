@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f23030</color>
+    <color name="colorOne">#555555</color>
+    <color name="colorTwo">#666666</color>
+    <color name="colorThree">#999999</color>
+    <color name="colorFour">#B2B2B2</color>
+    <color name="colorFive">#B6B6B6</color>
+    <color name="colorSix">#BDBDBD</color>
+    <color name="colorSeven">#DDDDDD</color>
+    <color name="colorEight">#E5E5E5</color>
+    <color name="colorNine">#EEEEEE</color>
+    <color name="colorTen">#EEF2F3</color>
+
+    <color name="colorShopBase">#F8F8F8</color>
+    <color name="colorLine">#DFE1E0</color>
+    <color name="colorPink">#FFE6E6</color>
+    <color name="colorBlue">#2828FF</color>
+    <color name="colorGreen">#5FB760</color>
+    <color name="colorCyan">#73D1C3</color>
+    <color name="free_buy_primary">#F55A32</color>
+    <color name="free_buy_title">#2D2D3D</color>
+    <color name="free_buy_sub_title">#CDCDCD</color>
+    <color name="colorTranslucent">#99000000</color>
+    <color name="colorGoodsDesc">#80808c</color>
+</resources>

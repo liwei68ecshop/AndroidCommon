@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TreeCheckbox">
+        <attr name="parentCheckbox" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CommonRecyclerView">
+        <attr name="emptyImage" format="reference"/>
+        <attr name="emptyTitle" format="reference"/>
+        <attr name="emptySubtitle" format="reference"/>
+        <attr name="emptyButtonTitle" format="reference"/>
+
+        <attr name="offlineImage" format="reference"/>
+        <attr name="offlineTitle" format="reference"/>
+        <attr name="offlineSubtitle" format="reference"/>
+        <attr name="offlineButtonTitle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircledTextView">
+        <attr name="circleColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="widthHeightRatio" format="float"/>
+    <attr name="measureFirst">
+        <flag name="WIDTH" value="0"/>
+        <flag name="HEIGHT" value="1"/>
+    </attr>
+    <declare-styleable name="AspectRatioImageView">
+        <attr name="widthHeightRatio"/>
+        <attr name="measureFirst"/>
+    </declare-styleable>
+    <declare-styleable name="AspectRatioLayout">
+        <attr name="widthHeightRatio"/>
+        <attr name="measureFirst"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean"/>
+        <attr name="layout_weight" format="float"/>
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+</resources>

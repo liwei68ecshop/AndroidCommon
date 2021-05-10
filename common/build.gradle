@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+apply from: 'gradle.properties'
+repositories {
+    maven {
+        url MAVEN_URL
+    }
+}
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        minSdkVersion MIN_SDK_VERSION
+        targetSdkVersion TARGET_SDK_VERSION
+        versionCode VERSION_CODE
+        versionName VERSION_NAME
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    /* Private libraries */
+    api 'com.szy:pullablelayout:1.8.2@aar'
+    api 'com.szy:viewpagerindicator:1.0.1@aar'
+
+    /* Android support libraries */
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'com.google.android.material:material:1.2.0-alpha05'
+    api 'androidx.percentlayout:percentlayout:1.0.0'
+    api 'androidx.multidex:multidex:2.0.1'
+
+    /* Third-party libraries */
+    api 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    api 'org.greenrobot:eventbus:3.0.0'
+    api 'com.yanzhenjie.nohttp:nohttp:1.1.11'
+    api 'com.yanzhenjie.nohttp:okhttp:1.1.11'
+    api 'com.alibaba:fastjson:1.1.70.android'
+    api 'com.makeramen:roundedimageview:2.3.0'
+}
+
+publish {
+    repoName = "maven"
+    userOrg = 'yishopcustomer'
+    groupId = GROUP_ID
+    artifactId = ARTIFACT_ID
+    publishVersion = VERSION_NAME
+    desc = 'novoad bintraybuild project'
+    website = MAVEN_URL
+}

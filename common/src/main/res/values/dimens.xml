@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontOne">18dp</dimen>
+    <dimen name="fontTwo">15dp</dimen>
+    <dimen name="fontThree">14dp</dimen>
+    <dimen name="fontFour">13dp</dimen>
+    <dimen name="fontFive">12dp</dimen>
+    <dimen name="fontSix">11dp</dimen>
+    <dimen name="fontSeven">16dp</dimen>
+    <dimen name="fontEight">10dp</dimen>
+    <dimen name="buttonMarginTop">24dp</dimen>
+    <dimen name="buttonEdgeMargin">20dp</dimen>
+    <dimen name="buttonHeight">44dp</dimen>
+    <dimen name="fontPrice">23dp</dimen>
+    <dimen name="border">0.6dp</dimen>
+</resources>
