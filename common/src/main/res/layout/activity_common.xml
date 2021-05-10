@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="#00000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/activity_common_toolbar"
+        layout="@layout/toolbar_common" />
+
+    <FrameLayout
+        android:id="@+id/activity_common_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_common_toolbar" />
+
+    <include
+        android:id="@+id/activity_common_offline_view"
+        layout="@layout/offline_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</RelativeLayout>

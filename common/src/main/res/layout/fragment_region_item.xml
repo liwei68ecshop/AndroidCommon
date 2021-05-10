@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/activity_region_item_nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="北京市"
+        android:textColor="@drawable/activity_region_selected_subitem_text_selector"
+        android:textSize="@dimen/fontFour" />
+
+
+    <Button
+        android:id="@+id/fragment_region_item_plusButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/activity_region_item_markImageView"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_region_item_plusButton"
+        android:layout_toEndOf="@+id/activity_region_item_nameTextView"
+        android:layout_toRightOf="@+id/activity_region_item_nameTextView"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_check_red" />
+</RelativeLayout>

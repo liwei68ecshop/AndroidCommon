@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTen"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="100dp">
+
+    <ImageView
+        android:id="@+id/empty_view_imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/bg_public" />
+
+    <TextView
+        android:id="@+id/empty_view_titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/requestFailed"
+        android:textColor="@color/colorTwo"
+        android:textSize="@dimen/fontSeven" />
+
+    <TextView
+        android:id="@+id/empty_view_subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/pleaseCheckYourNetwork"
+        android:textColor="@color/colorThree"
+        android:textSize="@dimen/fontFive" />
+
+    <Button
+        android:id="@+id/empty_view_button"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/enable_button_two"
+        android:text="@string/reload"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/fontTwo" />
+
+</LinearLayout>

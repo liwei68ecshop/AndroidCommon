@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_region_selected_item_textView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_region_selected_item_background_selector"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:text="@string/selectRegion"
+    android:textColor="@drawable/activity_region_selected_item_text_selector"
+    android:textSize="@dimen/fontFour" />

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="requestingPleaseWait">Requesting,please wait.</string>
+    <string name="placeholderActivityTitle">Activity title</string>
+    <string name="requestSucceed">Request succeed</string>
+    <string name="selectRegion">Select region</string>
+    <string name="requestFailed">Request failed</string>
+    <string name="pleaseCheckYourNetwork">Please check your network</string>
+    <string name="reload">Reload</string>
+    <string name="placeholderText" translatable="false">Text</string>
+    <string name="loading">Loading</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonConfirm">Confirm</string>
+    <string name="placeholderConfirm">Do you confirm?</string>
+    <string name="emptyList">List has no data.</string>
+    <string name="buttonReload">Reload</string>
+    <string name="emptyUrl">Empty url</string>
+    <string name="scanResult">Scan result</string>
+    <string name="copyToClipboard">Copied to clipboard</string>
+    <string name="copyUrl">Copy url</string>
+    <string name="pleaseSelect">please Select</string>
+</resources>

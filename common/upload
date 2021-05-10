@@ -1,0 +1,2 @@
+//上传到仓库在下面命令行使用此命令
+./gradlew clean build bintrayUpload -PbintrayUser=yishopcustomer -PbintrayKey=b03395a5a3d7ba7ce500d5118fb3bd090cfa69eb -PdryRun=false
